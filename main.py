@@ -57,5 +57,9 @@ class Linkedlist:
     
             
             
-my_linked_list = Linkedlist(1)
+my_linked_list = Linkedlist(2)
+my_linked_list.append(3)
 
+my_linked_list.prepend(1)
+
+my_linked_list.print_list()
